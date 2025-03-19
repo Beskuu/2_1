@@ -1,14 +1,15 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
-  }
+    System.out.println("Hello World!");
+    String a = "witaj świecie";
+    System.out.println(a.toUpperCase());
 
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+    Scanner b = new Scanner(System.in);
+    System.out.println("Podaj napis");
+
+    String napis = b.nextLine();
+    System.out.println(napis.toUpperCase());
+  }
 }
